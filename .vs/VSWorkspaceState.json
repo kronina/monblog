@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\resources\\views"
+    "\\app",
+    "\\app\\Providers"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\app\\Providers\\AppServiceProvider.php",
   "PreviewInSolutionExplorer": false
 }

@@ -11,9 +11,12 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function register(UrlGenerator $url)
     {
-        //
+           if(env('REDIRECT_HTTPS'))
+        {
+        $this->app['request']->server->set('HTTPS',true);
+        }
     }
 
     /**
@@ -23,6 +26,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        if(env('REDIRECT_HTTPS'))
+        {
+        $url->formaScheme('https');
+        }
     }
 }
