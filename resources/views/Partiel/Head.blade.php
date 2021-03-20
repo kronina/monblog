@@ -14,5 +14,5 @@
         <!-- Third party plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{{URL::asset('css/styles.css')}}" rel="stylesheet" />
+        <link href='css/styles.css' rel="stylesheet" />
     </head>
